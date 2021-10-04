@@ -1,3 +1,5 @@
+package com.epam.less.task1;
+
 import java.util.Scanner;
 
 public class TestedTask{
@@ -44,7 +46,7 @@ public class TestedTask{
             sum += dividingMethod(num, divider);
             System.out.println(sum);
         }
-        System.out.println(sum);
+        System.out.println("Сумма элементов массива кратных " + divider + " равна "+sum);
     }
 
     public static boolean isNumber(String s) {
